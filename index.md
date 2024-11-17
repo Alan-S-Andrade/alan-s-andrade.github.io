@@ -13,5 +13,6 @@ Most recently, I have worked with Jovan Stojkovic and [Professor Tianyin Xu](htt
 Following graduation from UIUC, I worked at Oracle as a software engineer for almost two years mostly developing disaster recovery features for [OCI](https://www.oracle.com/cloud/) content management.
 
 
+I am from Bogotá, Colombia.
 
 > > > > >alansa2@illinois.edu / [GitHub](https://github.com/Alan-S-Andrade) / [LinkedIn](https://www.linkedin.com/in/alan-s-andrade/)
