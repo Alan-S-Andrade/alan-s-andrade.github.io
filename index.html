@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <title>Tufte CSS</title>
-    <link rel="stylesheet" href="tufte.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>Alan Andrade</title>
+
+    <!-- Keep Tufte styling -->
+    <link rel="stylesheet" href="tufte.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Tufte overrides: spacing + scale (without removing the style) -->
+    <style>
+      /* Make the page breathe a bit more */
+      article {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+      }
+
+      /* Make the name header more prominent */
+      h1 {
+        font-size: 3.25rem;   /* bigger than default Tufte */
+        line-height: 1.1;
+        margin-top: 0;
+        margin-bottom: 2rem;
+      }
+
+      /* Loosen up paragraph rhythm */
+      section p {
+        margin-top: 0;
+        margin-bottom: 1.6rem; /* more vertical space between paragraphs */
+        line-height: 1.75;     /* slightly more readable */
+      }
+
+      /* Optional: if your build makes the text block feel too narrow, widen a bit */
+      article {
+        max-width: 65rem;  /* Tufte is narrower by default; tweak as desired */
+      }
+
+      /* Optional: slightly increase base size without changing Tufte look */
+      body {
+        font-size: 1.08rem;
+      }
+    </style>
   </head>
 
   <body>
     <article>
-      <h1 id="tufte-css"> Alan Andrade</h1>
+      <h1 id="tufte-css">Alan Andrade</h1>
+
       <section>
-        <p>I am a computer architecture PhD student at The University of Texas at Austin advised by <a href="https://cascade.cs.utexas.edu/">Professor Jovan Stojkovic</a>.<br><br>
-          I am interested in mitigating the frontend-bound cycles in modern datacenter workloads.
-          I aim to address this problem through a hardware–software co-design of microarchitectural and compiler innovations.<br><br>
-          
-          I earned my bachelor's and master's at the University of Illinois Urbana-Champaign's <a href="https://siebelschool.illinois.edu/">Department of Computer Science</a>.
+        <p>
+          I am a computer architecture PhD student at The University of Texas at Austin advised by
+          <a href="https://cascade.cs.utexas.edu/">Professor Jovan Stojkovic</a>.
         </p>
+
+        <p>
+          I am interested in mitigating the frontend-bound cycles in modern datacenter workloads.
+          I aim to address this problem through a hardware–software co-design of microarchitectural
+          and compiler innovations.
+        </p>
+
+        <p>
+          I earned my bachelor's and master's at the University of Illinois Urbana-Champaign's
+          <a href="https://siebelschool.illinois.edu/">Department of Computer Science</a>.
+        </p>
+
         <p>I am from Bogotá, Colombia.</p>
       </section>
     </article>
