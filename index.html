@@ -12,6 +12,39 @@
         margin-top: 2rem;
         margin-bottom: 3rem;
       }
+
+      h2 {
+        font-style: normal;
+      }
+
+      .publications {
+        padding-top: 0;
+        padding-bottom: 0.25rem;
+      }
+
+      .publications h2 {
+        margin-top: 1.25rem;
+      }
+
+      .publications p {
+        margin-bottom: 0.5rem;
+      }
+
+      .teaching {
+        padding-top: 0.25rem;
+      }
+
+      .teaching h2 {
+        margin-top: 0.5rem;
+      }
+
+      .bio {
+        padding-bottom: 0;
+      }
+
+      .bio p:last-child {
+        margin-bottom: 0.5rem;
+      }
       
       /* Expand text across the page */
       section > p,
@@ -41,13 +74,29 @@
   <body>
     <article>
       <h1 id="tufte-css"> Alan Andrade</h1>
-      <section>
+      <section class="bio">
         <p>I am a computer architecture PhD student at The University of Texas at Austin advised by <a href="https://cascade.cs.utexas.edu/">Professor Jovan Stojković</a>.<br><br>
-          I work on mitigating the memory wall limiting modern datacenter workloads. I aim to address this through <br> hardware–software co-designed innovations.<br><br>
+          I work on mitigating the memory wall limiting modern datacenter workloads. I will address this through <br> hardware-software co-design.<br><br>
           
           I earned my bachelor's and master's at the University of Illinois Urbana-Champaign's <a href="https://siebelschool.illinois.edu/">Department of Computer Science</a>.
         </p>
+        <p>Reach me at <a href="mailto:andrade@cs.utexas.edu">andrade@cs.utexas.edu</a></p>
         <p>I am from Bogotá, Colombia.</p>
+      </section>
+
+      <section class="publications">
+        <h2>Publications</h2>
+        <p><a href="https://scholar.google.com/citations?user=eEDPasIAAAAJ&amp;hl=en">Google Scholar</a></p>
+      </section>
+
+      <section class="teaching">
+        <h2>Teaching</h2>
+        <ul>
+          <li>Spring 2026 TA, UT Austin, CS 378H Microprocessor Memory Systems — Prof. Warren A. Hunt, Jr.</li>
+          <li>2020-2022 Undergraduate TA, UIUC, CS 233 Computer Architecture — Prof. Geoffrey Herman</li>
+          <li>Fall 2019 Undergraduate TA, UIUC, CS 125 Introduction to Computer Science — Prof. Geoffrey Challen</li>
+          <li>Course Developer, UIUC, CS 128 Introduction to Computer Science II — Prof. Michael Nowak</li>
+        </ul>
       </section>
     </article>
   </body>
